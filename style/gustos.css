@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://img.pikbest.com/backgrounds/20200527/retro-cyberpunk-style-80s-game-scene-pixel-art-8-bit-sci-fi-background-v_1772422jpg!sw800');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: #ffffff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+#content {
+    background-color: #f2efea;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1090px;
+    width: 100%;
+    overflow-y: auto;
+    max-height: 550px;
+    font-family: 'Rockwell'; 
+}
+
+h1, p, h2{
+    text-align: center;
+}
+
+.kinal {
+    width: 250px;
+    height: 90px;
+    display: block;
+    margin-right: center;
+    margin-left: center;
+    margin-bottom: 20px
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 50%;
+    height: 250px;
+    border-radius: 5px;
+}
+
+#tiempo {
+    margin-top: 20px;
+}
